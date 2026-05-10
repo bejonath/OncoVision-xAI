@@ -1,6 +1,6 @@
 import { PredictionResponse, HealthResponse } from '../types/api';
 
-const BASE_URL = 'http://localhost:8000';
+const BASE_URL = 'https://web-production-4d33c.up.railway.app';
 
 export async function checkHealth(): Promise<HealthResponse> {
   const res = await fetch(`${BASE_URL}/health`);
