@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+*.egg
+
+# Virtual Environments
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-error.log*
+
+# Model files (keep locally if training new models)
+*.h5
+*.ckpt
+*.meta
+*.index
+*.pb
+!balanced_hybrid1.h5  # Exception: Always include this model
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# Project specific
+code.rar
+*.rar
+_docx_unpack/
+_append_report.ps1
+cross-magnification-test.ipynb
+model_explainability.ipynb
+model.ipynb
+new.ipynb
+Capstone_Report_Completed.md
+XAI_HANDOFF.md
+
+# OS
+.DS_Store
+Thumbs.db
+.directory
